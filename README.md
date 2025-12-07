@@ -1,0 +1,1 @@
+Este proyecto se realizó para hacer el analisis y modificiación de datos obtenidos a través de una pagina web desarrollada, así los datos modificados fueron usados para desarrollar y enrenar modelos machine learnign
