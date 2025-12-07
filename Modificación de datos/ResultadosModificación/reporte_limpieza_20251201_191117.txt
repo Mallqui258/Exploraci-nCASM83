@@ -1,0 +1,137 @@
+======================================================================
+REPORTE DE LIMPIEZA - DATASET CASM83
+Fase: MODIFICACIÓN (SEMMA)
+======================================================================
+
+1. RESUMEN DE DATOS ORIGINALES
+----------------------------------------------------------------------
+Total de registros: 206
+Total de preguntas: 143
+
+2. CRITERIO DE LIMPIEZA
+----------------------------------------------------------------------
+Criterio 1: > 70% de respuestas en 0 (sin interés)
+Criterio 2: Veracidad < 5 puntos (según CASM83 R2014)
+Criterio 3: Consistencia < 5 puntos (según CASM83 R2014)
+
+3. REGISTROS ELIMINADOS
+----------------------------------------------------------------------
+Total eliminados: 65
+
+IDs eliminados (con motivo):
+  - ID 115: Exceso ceros (83.9%) | Veracidad baja (2/11) | Consistencia baja (1/11)
+  - ID 116: Exceso ceros (81.8%) | Consistencia baja (2/11)
+  - ID 122: Veracidad baja (3/11)
+  - ID 124: Exceso ceros (72.0%)
+  - ID 128: Exceso ceros (94.4%) | Consistencia baja (0/11)
+  - ID 130: Exceso ceros (93.0%) | Veracidad baja (4/11) | Consistencia baja (0/11)
+  - ID 131: Exceso ceros (84.6%) | Consistencia baja (0/11)
+  - ID 132: Exceso ceros (74.1%) | Consistencia baja (3/11)
+  - ID 133: Exceso ceros (75.5%) | Veracidad baja (4/11) | Consistencia baja (4/11)
+  - ID 134: Exceso ceros (93.0%) | Consistencia baja (0/11)
+  - ID 136: Exceso ceros (73.4%) | Consistencia baja (2/11)
+  - ID 140: Exceso ceros (89.5%) | Consistencia baja (0/11)
+  - ID 142: Consistencia baja (3/11)
+  - ID 147: Consistencia baja (3/11)
+  - ID 153: Consistencia baja (1/11)
+  - ID 157: Consistencia baja (3/11)
+  - ID 163: Exceso ceros (82.5%) | Veracidad baja (4/11) | Consistencia baja (2/11)
+  - ID 165: Consistencia baja (4/11)
+  - ID 166: Exceso ceros (82.5%) | Consistencia baja (4/11)
+  - ID 180: Exceso ceros (90.9%) | Consistencia baja (0/11)
+  - ID 181: Exceso ceros (95.8%) | Veracidad baja (4/11) | Consistencia baja (0/11)
+  - ID 183: Exceso ceros (96.5%) | Veracidad baja (2/11) | Consistencia baja (0/11)
+  - ID 185: Exceso ceros (76.2%) | Consistencia baja (2/11)
+  - ID 192: Exceso ceros (77.6%) | Consistencia baja (2/11)
+  - ID 193: Exceso ceros (71.3%) | Consistencia baja (4/11)
+  - ID 194: Exceso ceros (74.8%)
+  - ID 195: Exceso ceros (76.9%) | Veracidad baja (3/11) | Consistencia baja (4/11)
+  - ID 201: Exceso ceros (80.4%) | Consistencia baja (0/11)
+  - ID 202: Exceso ceros (93.0%) | Veracidad baja (1/11) | Consistencia baja (0/11)
+  - ID 205: Exceso ceros (83.9%)
+  - ID 215: Exceso ceros (92.3%) | Veracidad baja (2/11)
+  - ID 218: Exceso ceros (92.3%) | Consistencia baja (0/11)
+  - ID 219: Exceso ceros (81.1%) | Consistencia baja (2/11)
+  - ID 222: Exceso ceros (71.3%) | Consistencia baja (2/11)
+  - ID 233: Consistencia baja (2/11)
+  - ID 239: Consistencia baja (4/11)
+  - ID 241: Exceso ceros (90.2%) | Consistencia baja (0/11)
+  - ID 242: Exceso ceros (85.3%) | Consistencia baja (1/11)
+  - ID 247: Consistencia baja (1/11)
+  - ID 248: Exceso ceros (83.2%) | Consistencia baja (1/11)
+  - ID 251: Exceso ceros (77.6%) | Consistencia baja (2/11)
+  - ID 258: Exceso ceros (87.4%) | Veracidad baja (4/11) | Consistencia baja (0/11)
+  - ID 259: Exceso ceros (83.9%) | Consistencia baja (2/11)
+  - ID 263: Exceso ceros (92.3%) | Consistencia baja (0/11)
+  - ID 266: Exceso ceros (85.3%) | Consistencia baja (1/11)
+  - ID 267: Exceso ceros (82.5%) | Veracidad baja (0/11) | Consistencia baja (1/11)
+  - ID 269: Consistencia baja (3/11)
+  - ID 272: Exceso ceros (76.9%) | Consistencia baja (4/11)
+  - ID 274: Consistencia baja (4/11)
+  - ID 279: Consistencia baja (4/11)
+  - ID 281: Exceso ceros (79.7%) | Consistencia baja (0/11)
+  - ID 282: Veracidad baja (4/11)
+  - ID 283: Exceso ceros (85.3%) | Veracidad baja (1/11) | Consistencia baja (0/11)
+  - ID 284: Exceso ceros (100.0%) | Veracidad baja (0/11) | Consistencia baja (0/11)
+  - ID 285: Exceso ceros (90.2%) | Veracidad baja (1/11) | Consistencia baja (3/11)
+  - ID 286: Consistencia baja (4/11)
+  - ID 290: Exceso ceros (91.6%) | Consistencia baja (0/11)
+  - ID 291: Exceso ceros (90.9%) | Consistencia baja (0/11)
+  - ID 293: Consistencia baja (3/11)
+  - ID 297: Exceso ceros (88.1%) | Consistencia baja (0/11)
+  - ID 299: Exceso ceros (75.5%) | Consistencia baja (3/11)
+  - ID 304: Exceso ceros (72.0%) | Consistencia baja (4/11)
+  - ID 305: Consistencia baja (3/11)
+  - ID 307: Exceso ceros (86.7%) | Consistencia baja (1/11)
+  - ID 310: Consistencia baja (3/11)
+
+4. RESUMEN DE DATOS LIMPIOS
+----------------------------------------------------------------------
+Total de registros: 141
+Tasa de retención: 68.45%
+
+5. ESTADÍSTICAS DESCRIPTIVAS (DATOS LIMPIOS)
+----------------------------------------------------------------------
+Promedio tasa de completitud: 80.27%
+Promedio respuestas 'Ninguno': 19.73%
+Promedio respuestas 'Opción A': 33.22%
+Promedio respuestas 'Opción B': 38.76%
+Promedio respuestas 'Ambos': 8.27%
+
+6. DISTRIBUCIÓN POR GÉNERO
+----------------------------------------------------------------------
+Masculino: 78 (55.32%)
+Femenino: 63 (44.68%)
+
+7. DISTRIBUCIÓN POR GRADO
+----------------------------------------------------------------------
+Grado 4: 91 (64.54%)
+Grado 5: 50 (35.46%)
+
+8. ÁREAS VOCACIONALES MÁS POPULARES
+----------------------------------------------------------------------
+Ciencias Naturales: 22 estudiantes (15.60%)
+Ciencias de la Comunicación: 17 estudiantes (12.06%)
+Ciencias Físico-Matemáticas: 17 estudiantes (12.06%)
+Artes: 15 estudiantes (10.64%)
+Ciencias Sociales: 12 estudiantes (8.51%)
+Humanidades y Arquitectura: 12 estudiantes (8.51%)
+Finanzas: 11 estudiantes (7.80%)
+Jurídico: 11 estudiantes (7.80%)
+Ciencias Económico-Políticas: 9 estudiantes (6.38%)
+Burocracia/Administrativo: 8 estudiantes (5.67%)
+Lingüística: 7 estudiantes (4.96%)
+
+9. PUNTAJES PROMEDIO POR ÁREA VOCACIONAL
+----------------------------------------------------------------------
+Ciencias Físico-Matemáticas        : 14.72 pts (44.59%)
+Ciencias Sociales                  : 14.24 pts (43.15%)
+Ciencias Naturales                 : 14.90 pts (45.15%)
+Ciencias de la Comunicación        : 15.07 pts (45.67%)
+Artes                              : 15.21 pts (46.10%)
+Burocracia/Administrativo          : 14.10 pts (42.72%)
+Ciencias Económico-Políticas       : 14.38 pts (43.56%)
+Humanidades y Arquitectura         : 14.83 pts (44.94%)
+Finanzas                           : 14.87 pts (45.07%)
+Lingüística                        : 14.60 pts (44.23%)
+Jurídico                           : 14.69 pts (44.51%)
